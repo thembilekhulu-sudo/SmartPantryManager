@@ -59,6 +59,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintBottom_toTopOf="@id/btnSuggestedRecipes"
         app:layout_constraintEnd_toEndOf="parent" />
 

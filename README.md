@@ -29,3 +29,14 @@ Smart Pantry Manager lets users add, edit, and delete pantry items (with quantit
 ## Setup / Run Instructions
 
 1. Clone the repository:
+2. Open the project folder in **Android Studio** (Hedgehog or later recommended).
+3. Let Gradle sync finish (it will download the dependencies listed in `app/build.gradle.kts`).
+4. Run the app on an emulator or physical device:
+    - Minimum SDK: 24 (Android 7.0)
+    - Target/Compile SDK: 37
+5. On first launch, the app automatically creates the SQLite database and seeds it with 16 recipes — no manual setup step is needed.
+6. To reset the seeded data during testing, uninstall the app from the emulator/device (or clear its storage) and relaunch — `onCreate()` will reseed the database.
+
+## GitHub Repository
+
+[https://github.com/thembilekhulu-sudo/SmartPantryManager](https://github.com/thembilekhulu-sudo/SmartPantryManager)
